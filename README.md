@@ -30,19 +30,15 @@ If the mouse doesn't work even during startup:
 - Navigate to **Advanced > Internal Pointing Device**.
 - Ensure it is set to **Enabled**.
 
-### 5. Remote Hardware Scan (PowerShell)
-Run this command to force Windows to detect new hardware:
-```powershell
-pnputil /scan-devices
-
 ### 🖱 Advanced Mouse Issues
 - **Single Click acting as Double Click:** Go to `main.cpl` > Buttons > Adjust Double-click speed to Middle.
 - **Cursor Lagging:** Update Graphics Drivers and check Display Scaling (Recommended: 100%).
 - **Invisible Pointer:** Uncheck "Hide pointer while typing" in Mouse Pointer Options.
 - **Wireless Mouse Not Detected:** Replace battery and re-sync the USB Nano Receiver.
 
-### 💻 Touchpad Specific Troubleshooting
+  ### 💻 Touchpad Specific Troubleshooting
 - **Touchpad Shortcut:** Press `Fn + Touchpad Key` (varies by laptop: F3/F6/F7/F9) to re-enable.
 - **Windows Settings:** Ensure **Touchpad is ON** in Settings > Devices > Touchpad.
 - **Mouse Conflict:** Check "Leave touchpad on when a mouse is connected" setting.
 - **Precision Drivers:** Update **I2C HID Device** or **Synaptics/ELAN** drivers in Device Manager.
+
